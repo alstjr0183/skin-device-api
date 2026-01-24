@@ -148,11 +148,3 @@ async def crawl_oliveyoung_products(ingredient: str) -> list[dict]:
         raise
 
     return products
-
-# 테스트 실행 코드
-if __name__ == "__main__":
-    result = asyncio.run(crawl_oliveyoung_products("레티놀"))
-    
-    # 보기 좋게 출력
-    import json
-    print(json.dumps(result, ensure_ascii=False, indent=2))

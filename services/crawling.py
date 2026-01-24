@@ -15,8 +15,6 @@ async def background_crawling_task():
     async def sem_task(ing_name):
         async with semaphore:
             return await crawl_oliveyoung_products(ing_name)
-
-    # 초기 완료 상태 확인을 위한 세트 (성공한 성분 이름 추적)
     
     while True:
         # 아직 캐싱되지 않은(또는 실패해서 결과가 없는) 성분 식별
