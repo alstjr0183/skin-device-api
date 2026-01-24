@@ -1,0 +1,156 @@
+[
+    {
+        "id": "ing_retinol",
+        "name_ko": "레티놀",
+        "name_en": "Retinol",
+        "category": "Anti-Aging",
+        "target_concerns": [
+            "wrinkles",
+            "elasticity",
+            "pores"
+        ],
+        "sensitivity_risk": "High",
+        "usage_time": "NIGHT",
+        "efficacy": "콜라겐 생성을 촉진하여 주름과 탄력을 개선하고 모공을 조여줍니다.",
+        "caution": "밤에만 사용하세요. (자외선 민감), 임산부 사용 주의",
+        "match_score": 95
+    },
+    {
+        "id": "ing_niacinamide",
+        "name_ko": "나이아신아마이드",
+        "name_en": "Niacinamide",
+        "category": "Brightening",
+        "target_concerns": [
+            "pigmentation",
+            "pores",
+            "redness",
+            "acne"
+        ],
+        "sensitivity_risk": "Medium",
+        "usage_time": "ANY",
+        "efficacy": "미백 효과와 피지 조절 능력이 탁월하며 피부 장벽을 강화합니다.",
+        "caution": "고농도(10% 이상) 사용 시 피부가 따가울 수 있습니다.",
+        "match_score": 90
+    },
+    {
+        "id": "ing_hyaluronic",
+        "name_ko": "히알루론산",
+        "name_en": "Hyaluronic Acid",
+        "category": "Moisture",
+        "target_concerns": [
+            "hydration",
+            "wrinkles"
+        ],
+        "sensitivity_risk": "Low",
+        "usage_time": "ANY",
+        "efficacy": "자기 무게의 1000배 수분을 끌어당겨 속건조를 해결합니다.",
+        "caution": "",
+        "match_score": 85
+    },
+    {
+        "id": "ing_vit_c",
+        "name_ko": "비타민 C",
+        "name_en": "Ascorbic Acid",
+        "category": "Brightening",
+        "target_concerns": [
+            "pigmentation",
+            "elasticity"
+        ],
+        "sensitivity_risk": "High",
+        "usage_time": "ANY",
+        "efficacy": "강력한 항산화 효과로 기미, 잡티를 옅게 하고 안색을 밝힙니다.",
+        "caution": "아침 사용 시 자외선 차단제 필수, 따가움 주의",
+        "match_score": 95
+    },
+    {
+        "id": "ing_cica",
+        "name_ko": "시카",
+        "name_en": "Centella Asiatica",
+        "category": "Soothing",
+        "target_concerns": [
+            "redness",
+            "acne",
+            "hydration"
+        ],
+        "sensitivity_risk": "Low",
+        "usage_time": "ANY",
+        "efficacy": "자극받은 피부를 진정시키고 붉은기를 완화합니다.",
+        "caution": "",
+        "match_score": 88
+    },
+    {
+        "id": "ing_bha",
+        "name_ko": "바하",
+        "name_en": "Salicylic Acid (BHA)",
+        "category": "Exfoliation",
+        "target_concerns": [
+            "acne",
+            "pores"
+        ],
+        "sensitivity_risk": "Medium",
+        "usage_time": "ANY",
+        "efficacy": "지용성 각질 제거 성분으로 모공 속 피지를 녹여 여드름을 예방합니다.",
+        "caution": "주 2-3회 사용 권장, 건조함 주의",
+        "match_score": 92
+    },
+    {
+        "id": "ing_peptide",
+        "name_ko": "펩타이드",
+        "name_en": "Peptide",
+        "category": "Elasticity",
+        "target_concerns": [
+            "elasticity",
+            "wrinkles"
+        ],
+        "sensitivity_risk": "Low",
+        "usage_time": "ANY",
+        "efficacy": "피부를 구성하는 단백질 조각으로 처진 피부 밀도를 높여줍니다.",
+        "caution": "",
+        "match_score": 85
+    },
+    {
+        "id": "ing_panthenol",
+        "name_ko": "판테놀",
+        "name_en": "Panthenol",
+        "category": "Barrier",
+        "target_concerns": [
+            "hydration",
+            "redness"
+        ],
+        "sensitivity_risk": "Low",
+        "usage_time": "ANY",
+        "efficacy": "피부 장벽을 튼튼하게 하고 수분을 유지해줍니다.",
+        "caution": "",
+        "match_score": 80
+    },
+    {
+        "id": "ing_tea_tree",
+        "name_ko": "티트리",
+        "name_en": "Tea Tree",
+        "category": "Soothing",
+        "target_concerns": [
+            "acne",
+            "redness"
+        ],
+        "sensitivity_risk": "Medium",
+        "usage_time": "ANY",
+        "efficacy": "항균 작용이 뛰어나 화농성 여드름과 트러블 진정에 좋습니다.",
+        "caution": "특유의 향이 강할 수 있음",
+        "match_score": 85
+    },
+    {
+        "id": "ing_ceramide",
+        "name_ko": "세라마이드",
+        "name_en": "Ceramide",
+        "category": "Barrier",
+        "target_concerns": [
+            "hydration",
+            "elasticity"
+        ],
+        "sensitivity_risk": "Low",
+        "usage_time": "ANY",
+        "efficacy": "피부 장벽의 시멘트 역할을 하여 수분 증발을 막아줍니다.",
+        "caution": "",
+        "match_score": 88
+    }
+]
