@@ -32,3 +32,11 @@ class GeminiAnalysisResult(BaseModel):
     diagnosis: str
     recommendation: str
 
+class AnalysisResponse(BaseModel):
+    is_skin: bool
+    diagnosis: str
+    recommendation: str
+    scores: SkinScores | None = None
+    priorities: list[str] = []
+    recommended_ingredients: list[IngredientRecommendation] = Field(default=[])
+    graph_image: str | None = None
