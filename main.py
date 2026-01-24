@@ -1,9 +1,11 @@
 from config import settings
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import asyncio
 from services.crawling import background_crawling_task, clear_cache
 from services.scheduler import keep_alive
+from routers import skin
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 import logging
 
@@ -34,3 +36,12 @@ app = FastAPI(lifespan=lifespan)
 @app.get("/")
 def read_root():
     return {"message": "Hello, Skin API is running!"}
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=settings.CORS_ORIGINS,
+    allow_methods=["GET", "POST"],
+    allow_headers=["*"],
+)
+
+app.include_router(skin.router)
