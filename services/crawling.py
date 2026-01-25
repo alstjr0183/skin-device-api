@@ -63,3 +63,12 @@ def get_cached_products(ingredient_name: str) -> list[dict]:
 def clear_cache():
     PRODUCT_CACHE.clear()
     print("서버 종료: 캐시를 비웠습니다.")
+
+async def refresh_crawling_data():
+    """자정마다 호출되어 캐시를 비우고 데이터를 새로고침하는 함수"""
+    print("[스케줄러] 자정 데이터 갱신 작업 시작")
+    clear_cache()
+    
+    # background_crawling_task는 비동기 함수이므로 await로 실행 기다림
+    await background_crawling_task()
+    print("[스케줄러] 자정 데이터 갱신 작업 완료")
