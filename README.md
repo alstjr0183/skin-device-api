@@ -8,6 +8,12 @@
 
 <img src="assets/qr_code.png" width="500" alt="QR Code">
 
+---
+
+## 📜 개발 히스토리 (Development History)
+세부적인 구현 내용과 기능별 단위 작업은 GitHub Pull Requests에서 확인하실 수 있습니다.
+- [Closed Pull Requests (상세 구현 사항)](https://github.com/alstjr0183/fit-skin-api/pulls?q=is%3Apr+is%3Aclosed)
+
 ## 🚀 주요 기능 (Key Features)
 
 ### 1. AI 피부 진단 (Skin Diagnosis)
@@ -166,3 +172,5 @@ uvicorn main:app --reload
   "graph_image": "iVBORw0KGgoAAAANSUhEUgAA..."
 }
 ```
+
+
