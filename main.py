@@ -23,8 +23,9 @@ async def lifespan(app: FastAPI):
     scheduler = AsyncIOScheduler()
     scheduler.add_job(keep_alive, "interval", minutes=14)
 
+    # TODO: 버그로 인한 임시 주석 처리
     # 매일 자정(00:00)에 크롤링 데이터 갱신
-    scheduler.add_job(refresh_crawling_data, "cron", hour=0, minute=0)
+    # scheduler.add_job(refresh_crawling_data, "cron", hour=0, minute=0)
     
     scheduler.start()
     
